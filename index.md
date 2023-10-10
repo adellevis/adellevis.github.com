@@ -7,7 +7,7 @@ layout: basic-page.html
   <div class='row'>
     <div class='col-12'>
 
-# Live Event Painting
+# Live Event Painting!
 Blue Bottle American Apparel wolf small batch, Wes Anderson fashion axe vinyl McSweeney's gluten-free messenger bag four loko photo booth dreamcatcher. Quinoa food truck Banksy semiotics single-origin coffee, authentic Tumblr.
 
       <!-- Button trigger modal -->
