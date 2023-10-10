@@ -1,0 +1,77 @@
+@import "bootstrap.scss";
+
+$fontsize-body: calc(16px + 0.9vw);
+
+// @import "font-awesome";
+body {
+	font-size: $fontsize-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "DomaineDisplayNarrow", serif;
+  font-weight: 700;
+}
+
+$h6: $fontsize-body;
+$h5: calc($h6 * 1.1);
+$h4: calc($h5 * 1.1);
+$h3: calc($h4 * 1.1);
+$h2: calc($h3 * 1.1);
+$h1: calc($h2 * 1.1);
+
+h6 {font-size: $h6};
+h5 {font-size: $h5};
+h4 {font-size: $h4};
+h3 {font-size: $h3};
+h2 {font-size: $h2};
+h1 {font-size: $h1};
+
+nav > .flex {
+
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+
+footer {
+	font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: "DomaineText";
+  font-weight: normal;
+  font-style: normal;
+  src:
+  url("../fonts/DomaineTextWeb-Regular.woff2") format("woff2"),
+}
+@font-face {
+  font-family: "DomaineText";
+  font-weight: normal;
+  font-style: italic;
+  src:
+  url("../fonts/DomaineTextWeb-RegularItalic.woff2") format("woff2"),
+}
+@font-face {
+  font-family: "DomaineText";
+  font-weight: bold;
+  font-style: normal;
+  src:
+  url("../fonts/DomaineTextWeb-Bold.woff2") format("woff2"),
+}
+@font-face {
+  font-family: "DomaineText";
+  font-weight: bold;
+  font-style: italic;
+  src:
+  url("../fonts/DomaineTextWeb-BoldItalic.woff2") format("woff2"),
+}
+@font-face {
+  font-family: "DomaineDisplayNarrow";
+  font-weight: bold;
+  font-style: normal;
+  src:
+  url("../fonts/DomaineDisplayNarrowWeb-Semibold.woff2") format("woff2"),
+}

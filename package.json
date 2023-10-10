@@ -1,0 +1,15 @@
+{
+  "name": "adellevis.github.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve & npx sass sass:docs/src/css --watch",
+    "watch:sass": "npx sass sass:docs/css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
