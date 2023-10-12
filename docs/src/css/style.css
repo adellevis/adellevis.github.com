@@ -11851,7 +11851,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-size: calc(16px + 0.9vw);
+  font-size: 16px;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -11860,33 +11860,63 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h6, .h6 {
-  font-size: calc(16px + 0.9vw);
+  font-size: 16px;
 }
 
 h5, .h5 {
-  font-size: calc((16px + 0.9vw) * 1.1);
+  font-size: 17.6px;
 }
 
 h4, .h4 {
-  font-size: calc((16px + 0.9vw) * 1.1 * 1.1);
+  font-size: 21.12px;
 }
 
 h3, .h3 {
-  font-size: calc((16px + 0.9vw) * 1.1 * 1.1 * 1.1);
+  font-size: 25.344px;
 }
 
 h2, .h2 {
-  font-size: calc((16px + 0.9vw) * 1.1 * 1.1 * 1.1 * 1.1);
+  font-size: 30.4128px;
 }
 
 h1, .h1 {
-  font-size: calc((16px + 0.9vw) * 1.1 * 1.1 * 1.1 * 1.1 * 1.1);
+  font-size: 45.6192px;
 }
 
 nav > .flex {
   display: flex;
   justify-content: space-between;
   margin: 40px 0;
+}
+
+#hero .superheader {
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-bottom: 13px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+#hero h1, #hero .h1 {
+  font-size: 80px;
+  line-height: 1em;
+}
+#hero h2, #hero .h2 {
+  letter-spacing: 0.0125em;
+}
+
+.hero-testimonial .testimonial-content {
+  font-size: 14px;
+  border-left: 6px solid pink;
+  padding: 0.5em 0 0.5em 1em;
+  margin-top: 1em;
+}
+.hero-testimonial .logo-knot {
+  width: 30%;
+}
+@media only screen and (min-width: 960px) {
+  .hero-testimonial .logo-knot {
+    width: 20%;
+  }
 }
 
 footer {
