@@ -3,8 +3,9 @@ title: Home
 layout: basic-page.html
 ---
 
-<div id='hero' class='container'>
-  <div class='row'>
+<div class='container'>
+
+  <div id='hero' class='row '>
     <div class='col-12 col-md-6'>
       <div class='headline mb-4'>
         <p class='superheader' style=''>LIVE EVENT PAINTING</p>
@@ -40,22 +41,81 @@ layout: basic-page.html
       <img src='src/img/hero-sq.jpg' alt='' class='img-fluid'>
     </div>
   </div>
-</div>
 
-<div class='container'>
-  <div class='row'>
-    <div class='col-12'>
-
-## Meet the Artist
-
-<i class="fa-brands fa-instagram fa-lg" style="color: #3269c8;"></i>
-
-
-Bitters blog occupy, narwhal vinyl hella ugh kitsch freegan quinoa. Umami try-hard photo booth, post-ironic wayfarers VHS literally Odd Future. Fingerstache tofu food truck, heirloom pop-up Banksy Pinterest Odd Future tattooed seitan fap Thundercats. Drinking vinegar Brooklyn pour-over yr, stumptown +1 cliche art party PBR&B Pinterest. Tote bag PBR Marfa aesthetic, yr Portland post-ironic Vice hoodie four loko Austin kogi gastropub seitan brunch.
+  <!-- HOW IT WORKS -->
+  <section class='row my-5'>
+    <div class='col-12 col-lg-6'>
+      <h2>How it Works</h2>
+      <ol>
+        <li>Contact me for availability and a price quote
+        <li>I show up on your special day and do some pre-painting
+        <li>When the event is over, you can take your painting home
+      </ol>
+      <button type="button" class="btn btn-lgg btn-secondary py-2" data-bs-toggle="modal" data-bs-target="#contact-form">
+        Get a Quote
+      </button>
 
     </div>
-  </div>
-</div>
+    <div class='col-12 col-lg-6'>
+      <div>
+         <video class='intro-vid' width='95%' height='auto' poster='src/video/thumbnail.jpg' controls>
+            <source src='src/video/adelle-event-painting.mp4' type='video/mp4'>
+          Your browser does not support the video tag.
+          </video>
+      </div>
+    </div>
+  </section>
+
+  <section class='row my-5'>
+    <div class='col-12 mb-3'>
+      <h2>Image Gallery</h2>
+    </div>
+
+
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-2-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-3-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-4-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-5-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-6-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-7-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-1-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-8-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-9-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+
+  </section>
+
+  <!-- MEET THE ARTIST -->
+  <section class='row'>
+    <div class='col-12'>
+
+      <h2>Meet the Artist</h2>
+      <i class="fa-brands fa-instagram fa-lg" style="color: #3269c8;"></i>
+      <p>
+        Bitters blog occupy, narwhal vinyl hella ugh kitsch freegan quinoa. Umami try-hard photo booth, post-ironic wayfarers VHS literally Odd Future. Fingerstache tofu food truck, heirloom pop-up Banksy Pinterest Odd Future tattooed seitan fap Thundercats. Drinking vinegar Brooklyn pour-over yr, stumptown +1 cliche art party PBR&B Pinterest. Tote bag PBR Marfa aesthetic, yr Portland post-ironic Vice hoodie four loko Austin kogi gastropub seitan brunch.
+      </p>
+    </div>
+  </section>
+
+
+</div> <!-- end container  -->
 
 
 
