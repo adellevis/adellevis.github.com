@@ -3,36 +3,25 @@ title: Home
 layout: basic-page.html
 ---
 
-<div class='container'>
-
-  <div id='hero' class='row '>
+<!-- HERO -->
+<section class='container'>
+  <row id='hero' class='row'>
     <div class='col-12 col-md-6'>
-      <div class='headline mb-4'>
-        <p class='superheader' style=''>LIVE EVENT PAINTING</p>
-        <h1>
-          Capture the Moment
-        </h1>
-        <h2>
-          Dazzle family and friends as they watch a painting come to life at your event.
-          <!-- Watch as artist Adelle brings your event to life! -->
-        </h2>
-      </div>
-<!--       <h2 class='py-2'>
-        I’m Adelle – I come to your event and paint a special moment with you, your family and guests at your venue. At the end of the event, you have a painting you can take home and hang right on your wall.
-      </h2> -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-lg btn-primary py-2" data-bs-toggle="modal" data-bs-target="#contact-form">
-        Get a Quote
+      <p class='superheader' style=''>LIVE EVENT PAINTING</p>
+      <h1>Capture the Moment</h1>
+      <h2>
+        Dazzle family and friends as they watch a painting come to life at your event.
+      </h2>
+      <button type="button" class="btn btn-lg btn-primary py-2 my-4" data-bs-toggle="modal" data-bs-target="#contact-form">
+          Get a Quote
       </button>
 
-      <div class='row hero-testimonial'>
-        <div class='col-12 col-lg-10'>
-          <div class='testimonial-content'>
-            <p>
-              "Our painting is one of our most treasured things from our wedding day. The coolest part was that guests got to watch it and be awe-struck by her talent. At the end of the night, we got to take her masterpiece home with us." - Amy H.
-            </p>
-            <img class='logo-knot' src='src/img/knot.svg' alt=''>
-          </div>
+      <div class='hero-testimonial col-12 col-lg-10'>
+        <div class='testimonial-content'>
+          <p>
+            "Our painting is one of our most treasured things from our wedding day. The coolest part was that guests got to watch it and be awe-struck by her talent. At the end of the night, we got to take her masterpiece home with us." - Amy H.
+          </p>
+          <img class='logo-knot' src='src/img/knot.svg' alt=''>
         </div>
       </div>
 
@@ -40,10 +29,12 @@ layout: basic-page.html
     <div class='col-12 col-md-6'>
       <img src='src/img/hero-sq.jpg' alt='' class='img-fluid'>
     </div>
-  </div>
+  </row>
+</section>
 
+<section class='container'>
   <!-- HOW IT WORKS -->
-  <section class='row my-5'>
+  <row class='row my-5'>
     <div class='col-12 col-lg-6'>
       <h2>How it Works</h2>
       <ol>
@@ -54,7 +45,6 @@ layout: basic-page.html
       <button type="button" class="btn btn-lgg btn-secondary py-2" data-bs-toggle="modal" data-bs-target="#contact-form">
         Get a Quote
       </button>
-
     </div>
     <div class='col-12 col-lg-6'>
       <div>
@@ -64,13 +54,17 @@ layout: basic-page.html
           </video>
       </div>
     </div>
-  </section>
+  </row>
+</section>
 
-  <section class='row my-5'>
+<!-- IMAGE GALLERY -->
+<section class='container'>
+
+  <row class='row my-5'>
+
     <div class='col-12 mb-3'>
       <h2>Image Gallery</h2>
     </div>
-
 
     <div class='thumbnail-gallery'>
       <img src='src/img/gallery/gallery-2-thumb.jpg' alt='' class='img-fluid'>
@@ -99,11 +93,13 @@ layout: basic-page.html
     <div class='thumbnail-gallery'>
       <img src='src/img/gallery/gallery-9-thumb.jpg' alt='' class='img-fluid'>
     </div>
+  </row>
+</section>
 
-  </section>
 
-  <!-- MEET THE ARTIST -->
-  <section class='row'>
+<!-- MEET THE ARTIST -->
+<section class='container'>
+  <row class='row'>
     <div class='col-12'>
 
       <h2>Meet the Artist</h2>
@@ -112,11 +108,8 @@ layout: basic-page.html
         Bitters blog occupy, narwhal vinyl hella ugh kitsch freegan quinoa. Umami try-hard photo booth, post-ironic wayfarers VHS literally Odd Future. Fingerstache tofu food truck, heirloom pop-up Banksy Pinterest Odd Future tattooed seitan fap Thundercats. Drinking vinegar Brooklyn pour-over yr, stumptown +1 cliche art party PBR&B Pinterest. Tote bag PBR Marfa aesthetic, yr Portland post-ironic Vice hoodie four loko Austin kogi gastropub seitan brunch.
       </p>
     </div>
-  </section>
-
-
-</div> <!-- end container  -->
-
+  </row>
+</section>
 
 
 <!-- Modal -->
