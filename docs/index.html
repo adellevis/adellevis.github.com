@@ -1,120 +1,177 @@
+<!-- TODO ACTIVE STATES -->
+
 <!DOCTYPE html>
 <html lang='en'>
 <head>
   <meta charset='UTF-8'>
   <title>Adelle.ink - Home</title>
   <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-  <link rel='stylesheet' href='src/css/style.css'>
+  <link rel='stylesheet' href='/src/css/style.css'>
   <script src="https://kit.fontawesome.com/6f18911818.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class='container'>
-    <div class='flex'>
-      <div><h2><a href='/'>Adelle.ink</a></h2></div>
-      <div><a href='#'>How it Works</a></div>
-      <div><a href='#'>About</a></div>
-      <div><a href='#'>FAQ</a></div>
-    </div>
-  </nav>
-  <!-- HERO -->
-<section class='container'>
-  <row id='hero' class='row'>
+
+<!-- ============= COMPONENT ============== -->
+<nav class="autohide navbar navbar-expand-lg px-4 px-xxl-8">
+ <div class="container-fluid">
+
+    <a class="navbar-brand" id='logo' href='/'>
+      <img class='img-fluid' src='/src/img/logo.svg' alt=''>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+
+  <div class="collapse navbar-collapse" id="main_nav">
+
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="/faq"> FAQ </a>
+    <li class="nav-item"><a class="nav-link" href="/Contact"> Contact </a>
+  </ul>
+
+  </div> <!-- navbar-collapse.// -->
+ </div> <!-- container-fluid.// -->
+</nav>
+<!-- ============= COMPONENT END// ============== -->  
+
+
+  
+<!-- HERO -->
+<section id='hero' class='container-fluid px-4 px-xl-8  pt-9 pt-md-10 pb-8'>
+  
+  <row class='row g-5'>
+
     <div class='col-12 col-md-6'>
-      <p class='superheader' style=''>LIVE EVENT PAINTING</p>
-      <h1>Capture the Moment</h1>
+      <div id='hero-img'></div>
+    </div>    
+
+    <div class='hero-content col-12 col-md-6 col-xxl-5 p-xxl-5 ps-xxl-8'>
+      <p class='superheader'>Live Event Painting</p>
+      <h1>Capture the&nbsp;Moment</h1>
       <h2>
-        Dazzle family and friends as they watch a painting come to life at your event.
+        Dazzle family and friends as they watch a painting come to life at your&nbsp;event.
       </h2>
-      <button type="button" class="btn btn-lg btn-primary py-2 my-4" data-bs-toggle="modal" data-bs-target="#contact-form">
-          Get a Quote
+      <button type="button" class="btn primary btn-lg py-2 my-4" data-bs-toggle="modal" data-bs-target="#contact-form">
+          Get a Quote &#10132;
       </button>
-<p><div class='hero-testimonial col-12 col-lg-10'>
-<div class='testimonial-content'>
-<p>
-&quot;Our painting is one of our most treasured things from our wedding day. The coolest part was that guests got to watch it and be awe-struck by her talent. At the end of the night, we got to take her masterpiece home with us.&quot; - Amy H.
-</p>
-<img class='logo-knot' src='src/img/knot.svg' alt=''>
-</div>
-</div></p>
-<p></div>
-<div class='col-12 col-md-6'>
-<img src='src/img/hero-sq.jpg' alt='' class='img-fluid'>
-</div>
-</row></p>
-</section>
-<section class='container'>
-  <!-- HOW IT WORKS -->
-  <row class='row my-5'>
-    <div class='col-12 col-lg-6'>
-      <h2>How it Works</h2>
-      <ol>
-        <li>Contact me for availability and a price quote
-        <li>I show up on your special day and do some pre-painting
-        <li>When the event is over, you can take your painting home
-      </ol>
-      <button type="button" class="btn btn-lgg btn-secondary py-2" data-bs-toggle="modal" data-bs-target="#contact-form">
-        Get a Quote
-      </button>
-    </div>
-    <div class='col-12 col-lg-6'>
-      <div>
-         <video class='intro-vid' width='95%' height='auto' poster='src/video/thumbnail.jpg' controls>
-            <source src='src/video/adelle-event-painting.mp4' type='video/mp4'>
-          Your browser does not support the video tag.
-          </video>
+
+      <div class='hero-testimonial col-12 col-xxl-10'>
+        <div class='testimonial-content'>
+          <p>
+            "Our painting is one of our most treasured things from our wedding day. The coolest part was that guests got to watch it and be awe-struck by her talent. At the end of the night, we got to take our masterpiece home with us." - Amy H.
+          </p>
+          <img class='logo-knot' src='src/img/knot.svg' alt=''>
+        </div>
       </div>
+
     </div>
+
   </row>
 </section>
-<!-- IMAGE GALLERY -->
-<section class='container'>
-  <row class='row my-5'>
-<p><div class='col-12 mb-3'>
-<h2>Image Gallery</h2>
-</div></p>
-<p><div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-2-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-3-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-4-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-5-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-6-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-7-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-1-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-8-thumb.jpg' alt='' class='img-fluid'>
-</div>
-<div class='thumbnail-gallery'>
-<img src='src/img/gallery/gallery-9-thumb.jpg' alt='' class='img-fluid'>
-</div>
-</row></p>
+
+<!-- HOW IT WORKS -->
+
+<section class='container-fluid py-4'>
+  <div class='container px-4 '>
+
+    <row class='row g-5 align-items-center'>
+
+      <div class='col-12 col-lg-6'>
+        <div>
+           <video class='intro-vid' width='95%' height='auto' poster='src/video/thumbnail.jpg' controls>
+              <source src='src/video/adelle-event-painting.mp4' type='video/mp4'>
+            Your browser does not support the video tag.
+            </video>
+        </div>
+      </div>
+
+
+      <div class='col-12 col-lg-6 pe-xl-10 p-xxl-08 d-flex flex-column align-self-center'>
+        <h2>How it Works</h2>
+        <ol class='header'>
+          <li>Contact me for availability and a price quote.
+          <li>I arrive two hours before your event and so some pre-painting.
+          <li>When guests arrive, they can watch and engage.
+          <li>When the event is over, you can take your painting home.
+        </ol>
+        <div>
+          <a href='/faq'>
+            <button type="button" class="btn btn-lgg btn-secondary py-2">
+            Learn more &#10132;
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </row>
+
+  </div>
 </section>
+
+<!-- IMAGE GALLERY -->
+<section class='container px-4'>
+
+  <row class='row my-5'>
+
+    <div class='col-12 mb-3'>
+      <h2>Image Gallery</h2>
+    </div>
+
+  </row>
+
+  <row class='row clearfix gy-4'>
+
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-2-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-3-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-4-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-5-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-6-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-7-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-1-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-8-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+    <div class='thumbnail-gallery'>
+      <img src='src/img/gallery/gallery-9-thumb.jpg' alt='' class='img-fluid'>
+    </div>
+  </row>
+
+</section>
+
+
 <!-- MEET THE ARTIST -->
-<section class='container'>
+<!-- <section class='container'>
   <row class='row'>
     <div class='col-12'>
-<p><h2>Meet the Artist</h2>
-<i class="fa-brands fa-instagram fa-lg" style="color: #3269c8;"></i>
-<p>
-Bitters blog occupy, narwhal vinyl hella ugh kitsch freegan quinoa. Umami try-hard photo booth, post-ironic wayfarers VHS literally Odd Future. Fingerstache tofu food truck, heirloom pop-up Banksy Pinterest Odd Future tattooed seitan fap Thundercats. Drinking vinegar Brooklyn pour-over yr, stumptown +1 cliche art party PBR&amp;B Pinterest. Tote bag PBR Marfa aesthetic, yr Portland post-ironic Vice hoodie four loko Austin kogi gastropub seitan brunch.
-</p>
-</div>
-</row></p>
-</section>
+
+      <h2>Meet the Artist</h2>
+      <i class="fa-brands fa-instagram fa-lg" style="color: #3269c8;"></i>
+      <p>
+        Bitters blog occupy, narwhal vinyl hella ugh kitsch freegan quinoa. Umami try-hard photo booth, post-ironic wayfarers VHS literally Odd Future. Fingerstache tofu food truck, heirloom pop-up Banksy Pinterest Odd Future tattooed seitan fap Thundercats. Drinking vinegar Brooklyn pour-over yr, stumptown +1 cliche art party PBR&B Pinterest. Tote bag PBR Marfa aesthetic, yr Portland post-ironic Vice hoodie four loko Austin kogi gastropub seitan brunch.
+      </p>
+    </div>
+  </row>
+</section> -->
+
+
 <!-- Modal -->
-<div class="modal fade" id="contact-form" tabindex="-1" aria-labelledby="contact-formLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="contact-form" tabindex="-1" aria-labelledby="contact-formLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
@@ -126,14 +183,68 @@ Bitters blog occupy, narwhal vinyl hella ugh kitsch freegan quinoa. Umami try-ha
       </div>
     </div>
   </div>
-</div>
-  <footer class='container'>
-    <div class='row'>
-      <div class='col-12'>
-        All Images © Adelle Marcero
+</div> -->
+<!-- FOOTER -->
+  <div class="responsive-indicator">
+    <div class="d-block d-sm-none">{xs}</div>
+    <div class="d-none d-sm-block d-md-none">{sm}</div>
+    <div class="d-none d-md-block d-lg-none">{md}</div>
+    <div class="d-none d-lg-block d-xl-none">{lg}</div>
+    <div class="d-none d-xl-block d-xxl-none">{xl}</div>
+    <div class="d-none d-xxl-block">{xxl}</div>
+  </div>
+    
+  <footer class='container-fluid'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-12'>
+          <hr>
+          All Images © Adelle Marcero
+        </div>
       </div>
     </div>
   </footer>
-  <script src="src/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- <script src="src/js/bootstrap.min.js" crossorigin="anonymous"></script> -->
+
+<!-- AUTOHIDE -->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(){
+    
+    el_autohide = document.querySelector('.autohide');
+    
+    // add padding-top to bady (if necessary)
+    navbar_height = document.querySelector('.navbar').offsetHeight;
+    document.body.style.paddingTop = navbar_height + 'px';
+
+    if(el_autohide){
+      
+      var last_scroll_top = 0;
+      window.addEventListener('scroll', function() {
+            let scroll_top = window.scrollY;
+           if(scroll_top < last_scroll_top) {
+                el_autohide.classList.remove('scrolled-down');
+                el_autohide.classList.add('scrolled-up');
+            }
+            else {
+                el_autohide.classList.remove('scrolled-up');
+                el_autohide.classList.add('scrolled-down');
+            }
+            last_scroll_top = scroll_top;
+
+      }); 
+      // window.addEventListener
+
+    }
+    // if
+    
+  }); 
+  // DOMContentLoaded  end
+
+
+</script>
+
 </body>
 </html>
