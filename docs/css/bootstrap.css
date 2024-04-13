@@ -4,7 +4,6 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -889,7 +888,7 @@ progress {
   width: 91.66666667%;
 }
 
-.col-12, .thumbnail-gallery {
+.col-12 {
   flex: 0 0 auto;
   width: 100%;
 }
@@ -1313,7 +1312,7 @@ progress {
     flex: 0 0 auto;
     width: 41.66666667%;
   }
-  .col-md-6, .thumbnail-gallery {
+  .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
   }
@@ -1514,7 +1513,7 @@ progress {
     flex: 0 0 auto;
     width: 25%;
   }
-  .col-lg-4, .thumbnail-gallery {
+  .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
   }
@@ -13836,298 +13835,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.primary {
-  background-color: #C7E0D9;
-}
 
-.grey {
-  background-color: #D8E0E1;
-}
-
-body {
-  font-size: calc(16px + 0.4vw);
-  color: hsl(0, 0%, 40%);
-  color: #321414;
-  color: #3d0c02;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "Domaine Display Narrow", serif;
-  font-weight: 600;
-  color: black;
-}
-
-h6, .h6 {
-  font-size: calc(16px + 0.4vw);
-}
-
-h5, .h5 {
-  font-size: calc((16px + 0.4vw) * 1.1);
-}
-
-h4, .h4 {
-  font-size: calc((16px + 0.4vw) * 1.1 * 1.2);
-}
-
-h3, .h3 {
-  font-size: calc((16px + 0.4vw) * 1.1 * 1.2 * 1.2);
-}
-
-h2, .h2 {
-  font-size: calc((16px + 0.4vw) * 1.1 * 1.2 * 1.2 * 1.5);
-}
-
-h1, .h1 {
-  font-size: calc((16px + 0.4vw) * 1.1 * 1.2 * 1.2 * 1.5 * 1.2);
-}
-
-button.primary {
-  background-color: #9A2CAB;
-  color: white;
-  font-weight: 600;
-  border: 0;
-}
-
-nav {
-  font-size: calc(24px + 0.5vw);
-  font-weight: 700;
-  z-index: 2;
-  background-color: hsla(0, 0%, 90%, 0);
-  font-family: "Domaine Display Narrow";
-}
-nav a:link, nav a:visited {
-  font-weight: 600;
-  color: black;
-}
-nav i {
-  font-size: 50px;
-}
-.autohide {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1030;
-}
-
-.scrolled-down {
-  transform: translateY(-100%);
-  transition: all 0.3s ease-in-out;
-}
-
-.scrolled-up {
-  transform: translateY(0);
-  transition: all 0.3s ease-in-out;
-  background-color: white;
-}
-
-#logo {
-  font-family: "Domaine Display Narrow";
-  font-size: calc(30px + 0.5vw);
-  width: 100px;
-}
-
-#hero {
-  background-image: url("../img/bg/tan.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: gray;
-  position: relative;
-  top: -100px;
-}
-#hero .superheader {
-  font-weight: 800;
-  margin-bottom: 0;
-  margin-bottom: 13px;
-  text-transform: uppercase;
-  font-size: calc(18px + 0.5vw);
-  letter-spacing: 2px;
-  color: #65a996;
-}
-#hero h1, #hero .h1 {
-  font-size: calc(40px + 4vw);
-  line-height: 1em;
-}
-#hero h2, #hero .h2 {
-  font-size: calc(20px + 0.5vw);
-  letter-spacing: 0.0125em;
-  font-weight: 500;
-}
-
-#hero-img {
-  background-image: url("../img/gallery/gallery-6.jpg");
-  background-color: gray;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: visible;
-  height: 50vh;
-  width: 100%;
-}
-@media only screen and (min-width: 960px) {
-  #hero-img {
-    height: 100%;
-  }
-}
-
-.hero-testimonial .testimonial-content {
-  font-size: 16px;
-  border-left: 6px solid #d7e9e4;
-  padding: 0.5em 0 0.5em 1em;
-  margin-top: 1em;
-}
-.hero-testimonial .logo-knot {
-  width: 30%;
-}
-@media only screen and (min-width: 960px) {
-  .hero-testimonial .logo-knot {
-    width: 20%;
-  }
-}
-
-video.intro-vid {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
-
-.thumbnail-gallery img {
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
-}
-.thumbnail-gallery img:hover {
-  cursor: pointer;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
-  scale: 102%;
-  border-radius: 10px;
-  -moz-box-shadow: 0px 0px 15px 16px hsla(0, 0%, 60%, 0.25);
-  -webkit-box-shadow: 0px 0px 15px 16px hsla(0, 0%, 60%, 0.25);
-  box-shadow: 0px 0px 15px 16px hsla(0, 0%, 60%, 0.25);
-}
-
-footer {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 1px;
-  padding-bottom: 40px;
-}
-
-.accordion-header button {
-  font-weight: 600;
-  font-size: calc(16px + 0.5vw);
-}
-
-.viz {
-  border: 1px solid pink;
-}
-
-.responsive-indicator {
-  z-index: 1000;
-  display: none;
-  background-color: red;
-  font-family: monospace;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  font-size: 16px;
-  padding: 3px 8px;
-}
-.responsive-indicator a:link, .responsive-indicator a:visited {
-  color: black;
-  text-decoration: underline;
-}
-
-/* DomaineDispNar-SemiboldItalic */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: semibold;
-  font-style: italic;
-  src: url("src/fonts/DomaineDispNar-SemiboldItalic.otf") format("opentype");
-}
-/* DomaineDispNar-Black */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: black;
-  font-style: normal;
-  src: url("src/fonts/DomaineDispNar-Black.otf") format("opentype");
-}
-/* DomaineDispNar-BlackItalic */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: black;
-  font-style: italic;
-  src: url("src/fonts/DomaineDispNar-BlackItalic.otf") format("opentype");
-}
-/* DomaineDispNar-Bold */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: bold;
-  font-style: normal;
-  src: url("src/fonts/DomaineDispNar-Bold.otf") format("opentype");
-}
-/* DomaineDispNar-BoldItalic */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: bold;
-  font-style: italic;
-  src: url("src/fonts/DomaineDispNar-BoldItalic.otf") format("opentype");
-}
-/* DomaineDispNar-Extrabold */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: extrabold;
-  font-style: normal;
-  src: url("src/fonts/DomaineDispNar-Extrabold.otf") format("opentype");
-}
-/* DomaineDispNar-ExtraboldItalic */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: extrabold;
-  font-style: italic;
-  src: url("src/fonts/DomaineDispNar-ExtraboldItalic.otf") format("opentype");
-}
-/* DomaineDispNar-Medium */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: medium;
-  font-style: normal;
-  src: url("src/fonts/DomaineDispNar-Medium.otf") format("opentype");
-}
-/* DomaineDispNar-MediumItalic */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: medium;
-  font-style: italic;
-  src: url("src/fonts/DomaineDispNar-MediumItalic.otf") format("opentype");
-}
-/* DomaineDispNar-Regular */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: normal;
-  font-style: normal;
-  src: url("src/fonts/DomaineDispNar-Regular.otf") format("opentype");
-}
-/* DomaineDispNar-RegularItalic */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: normal;
-  font-style: italic;
-  src: url("src/fonts/DomaineDispNar-RegularItalic.otf") format("opentype");
-}
-/* DomaineDispNar-Semibold */
-@font-face {
-  font-family: "Domaine Display Narrow";
-  font-weight: semibold;
-  font-style: normal;
-  src: url("src/fonts/DomaineDispNar-Semibold.otf") format("opentype");
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=bootstrap.css.map */

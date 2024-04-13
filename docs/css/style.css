@@ -13888,20 +13888,25 @@ button.primary {
   border: 0;
 }
 
-nav {
-  font-size: calc(24px + 0.5vw);
-  font-weight: 700;
-  z-index: 2;
-  background-color: hsla(0, 0%, 90%, 0);
+.header {
   font-family: "Domaine Display Narrow";
 }
-nav a:link, nav a:visited {
-  font-weight: 600;
-  color: black;
+
+nav {
+  font-size: calc(18px + 0.5vw);
+  font-weight: 700;
+  z-index: 2;
+  background-color: white;
 }
 nav i {
   font-size: 50px;
 }
+@media only screen and (min-width: 720px) {
+  nav {
+    background-color: hsla(0, 0%, 90%, 0);
+  }
+}
+
 .autohide {
   position: fixed;
   top: 0;
@@ -13919,7 +13924,6 @@ nav i {
 .scrolled-up {
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
-  background-color: white;
 }
 
 #logo {
@@ -13929,7 +13933,7 @@ nav i {
 }
 
 #hero {
-  background-image: url("../img/bg/tan.svg");
+  background-image: url("../img/bg/white.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14031,7 +14035,6 @@ footer {
 
 .responsive-indicator {
   z-index: 1000;
-  display: none;
   background-color: red;
   font-family: monospace;
   position: fixed;
