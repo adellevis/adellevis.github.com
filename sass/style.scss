@@ -10,11 +10,15 @@ $grey-2: darken($grey-1,10%);
 $tan: #F8F2EA;
 $cta: #9A2CAB;
 
+$purple: #9A2CAB;
+
 $nav-color: $tan;
 $nav-color: white;
 
 .primary {background-color: $primary;}
 .grey {background-color: $grey-1;}
+.primary-text {color: $purple;}
+.grey-text {color: $grey-1;}
 
 // @import "font-awesome";
 body {
@@ -68,16 +72,19 @@ button.primary {
 }
 
 button.secondary {
-	background-color: hsla(0, 0%, 90%, 0.75);
+	background-color: lighten($cta,40%);
 	font-weight: 600;
-	border: 0;
+	// border: 1px dotted red;
+	border:0;
 	color: black;
+	padding: 0.25em 0.5em;
+	border-radius: 5px;
 	a {
 		color: black;
 		text-decoration: none;
 	}
 	&:hover {
-		background-color: darken($cta,10%);
+		background-color: lighten($cta,30%);
 	}
 }
 
@@ -105,11 +112,11 @@ nav {
 
 .autohide {
 	position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1030;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
 }
 .scrolled-down {
 	transform:translateY(-100%); transition: all 0.3s ease-in-out;
@@ -183,6 +190,14 @@ nav {
 			width: 20%;
 		}
 	}
+}
+
+.container-form {
+	height:85vh;
+	@media only screen and (min-width : $break-lg) {
+		padding-top: 1em;
+	}
+
 }
 
 video.intro-vid {
