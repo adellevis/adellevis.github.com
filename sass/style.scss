@@ -49,9 +49,16 @@ h1 {font-size: $h1};
 
 button.primary {
 	background-color: $cta;
-	color: white;
 	font-weight: 600;
 	border: 0;
+	color: white;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	&:hover {
+		background-color: darken($cta,10%);
+	}
 }
 
 
